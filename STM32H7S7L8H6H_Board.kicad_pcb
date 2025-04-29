@@ -2698,6 +2698,65 @@
 			)
 		)
 	)
+	(gr_line
+		(start 40 150)
+		(end 40 50)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a5f97581-01b0-471d-a486-5587f47d004c")
+	)
+	(gr_line
+		(start 40 50)
+		(end 140 50)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d8e96662-b54a-48ce-a9ba-992bfc103b7d")
+	)
+	(gr_line
+		(start 140 50)
+		(end 140 150)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e08c8c28-58e0-474d-ade0-4226a59dd265")
+	)
+	(gr_line
+		(start 140 150)
+		(end 40 150)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e34e3d36-2355-4e65-b92a-d8b636a70557")
+	)
+	(gr_text_box "Notes:\n\n- PCBWay 4 layer with 0.45/0.3 mm hole $30 (100x100)\n- Impedance matching 4 layers"
+		(start 212.965 44.23)
+		(end 306.175 117.67)
+		(layer "In2.Cu")
+		(uuid "9637ba85-dc31-49ef-957f-8c7d094a01a2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
 	(segment
 		(start 118.5242 75.6142)
 		(end 118.07 75.16)
