@@ -6588,6 +6588,278 @@
 				)
 			)
 		)
+		(symbol "Personal_Projects:Oscillator_ECS-327MVATX-3-CN-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OS"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "Oscillator_ECS-327MVATX-3-CN-TR"
+				(at -3.556 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Personal_Project:Oscillator_ECS327MVATX3CNTR"
+				(at 34.29 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ECS-327MVATX-3-CN-TR.pdf"
+				(at 34.29 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystals 32.768kHz 1.6-3.6V ESR -40C +85C"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 34.29 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "520-327MVATX-3-CNT"
+				(at 34.29 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-327MVATX-3-CN-TR?qs=T3oQrply3y9VvCEDxGCK8A%3D%3D"
+				(at 34.29 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ECS"
+				(at 34.29 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ECS-327MVATX-3-CN-TR"
+				(at 34.29 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Oscillator_ECS-327MVATX-3-CN-TR_0_1"
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 12.7 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 14.605 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -2.54) (xy 14.605 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -2.54) (xy 18.415 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 18.415 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 20.32 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 15.367 1.27)
+					(end 17.653 -3.81)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Oscillator_ECS-327MVATX-3-CN-TR_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 30.48 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "TRI-STATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Personal_Projects:SDRAM_IS42S16320F-6TL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13484,7 +13756,7 @@
 		(uuid "5999c4e9-b0f8-43b2-9ae8-fe7c4c65c267")
 	)
 	(junction
-		(at 260.35 115.57)
+		(at 260.35 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a098e5f-1097-430c-a592-5ba0ff9bd4ad")
@@ -13826,7 +14098,7 @@
 		(uuid "a86d1e97-2d38-4563-81dd-ff0f4fd98704")
 	)
 	(junction
-		(at 106.68 190.5)
+		(at 101.6 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a94acf91-6251-4c74-b143-eb5eb6421f4b")
@@ -14172,10 +14444,6 @@
 		(uuid "82ce2ddb-cdf6-4246-afc3-9c97fc5d2982")
 	)
 	(no_connect
-		(at 110.49 193.04)
-		(uuid "9c484995-6f3c-4066-a5c4-97ef0c73eb94")
-	)
-	(no_connect
 		(at 306.07 132.08)
 		(uuid "a3509384-2fdb-45b4-982d-84a51c441643")
 	)
@@ -14194,6 +14462,10 @@
 	(no_connect
 		(at 238.76 132.08)
 		(uuid "be10e5f7-a0a4-4522-8779-de77d5963e75")
+	)
+	(no_connect
+		(at 105.41 193.04)
+		(uuid "ce170304-85de-4591-974e-fdd49710d924")
 	)
 	(no_connect
 		(at -334.01 365.76)
@@ -14262,16 +14534,6 @@
 			(type default)
 		)
 		(uuid "0084574b-7766-441d-854a-703bba96c82a")
-	)
-	(wire
-		(pts
-			(xy 255.27 115.57) (xy 260.35 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0196ad7d-8657-4ad9-9856-3f2f6aa95694")
 	)
 	(wire
 		(pts
@@ -14635,16 +14897,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 115.57) (xy 260.35 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab274c3-fa6a-4f01-8fad-e5fa1499fdee")
-	)
-	(wire
-		(pts
 			(xy 262.89 147.32) (xy 266.7 147.32)
 		)
 		(stroke
@@ -14652,16 +14904,6 @@
 			(type default)
 		)
 		(uuid "0b00cf82-2a82-4cea-8c57-ea5dc51b75ea")
-	)
-	(wire
-		(pts
-			(xy 137.16 193.04) (xy 146.05 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4aa9c0-2ec4-4203-bdfa-64a867c819a8")
 	)
 	(wire
 		(pts
@@ -14885,7 +15127,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 190.5) (xy 106.68 190.5)
+			(xy 97.79 190.5) (xy 101.6 190.5)
 		)
 		(stroke
 			(width 0)
@@ -15235,7 +15477,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 199.39) (xy 134.62 199.39)
+			(xy 101.6 199.39) (xy 134.62 199.39)
 		)
 		(stroke
 			(width 0)
@@ -17225,7 +17467,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 115.57) (xy 260.35 115.57)
+			(xy 266.7 116.84) (xy 260.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -17515,7 +17757,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 190.5) (xy 106.68 199.39)
+			(xy 101.6 190.5) (xy 101.6 199.39)
 		)
 		(stroke
 			(width 0)
@@ -17915,16 +18157,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 190.5) (xy 140.97 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f976521-e268-4bbb-86dc-bd16bfb79614")
-	)
-	(wire
-		(pts
 			(xy -454.66 142.24) (xy -448.31 142.24)
 		)
 		(stroke
@@ -18285,6 +18517,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 118.11) (xy 260.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba95759-f97c-4d39-93f2-7c9dc4357752")
+	)
+	(wire
+		(pts
 			(xy 462.28 88.9) (xy 473.71 88.9)
 		)
 		(stroke
@@ -18385,7 +18627,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 116.84) (xy 255.27 116.84)
+			(xy 238.76 116.84) (xy 260.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -19435,7 +19677,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 190.5) (xy 110.49 190.5)
+			(xy 101.6 190.5) (xy 105.41 190.5)
 		)
 		(stroke
 			(width 0)
@@ -19642,16 +19884,6 @@
 			(type default)
 		)
 		(uuid "ac3ab0f7-38dd-427d-bf73-1b84e269622f")
-	)
-	(wire
-		(pts
-			(xy 255.27 116.84) (xy 255.27 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad01440b-de32-4c97-8cd1-3cb55e02a999")
 	)
 	(wire
 		(pts
@@ -20855,6 +21087,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 193.04) (xy 146.05 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2726ebf-e5f2-42a0-ae3c-4e964cbfbab1")
+	)
+	(wire
+		(pts
 			(xy -518.16 147.32) (xy -497.84 147.32)
 		)
 		(stroke
@@ -21405,6 +21647,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 190.5) (xy 140.97 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b99f9f-6aad-4d51-a82c-3754119facff")
+	)
+	(wire
+		(pts
 			(xy -467.36 97.79) (xy -449.58 97.79)
 		)
 		(stroke
@@ -21512,16 +21764,6 @@
 			(type default)
 		)
 		(uuid "e6f1316e-594d-4015-9da2-1f0e0e23d0f5")
-	)
-	(wire
-		(pts
-			(xy 260.35 124.46) (xy 260.35 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e73dd3f8-0677-4da0-8047-bd4058facbf8")
 	)
 	(wire
 		(pts
@@ -22255,7 +22497,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 187.96) (xy 102.87 190.5)
+			(xy 97.79 187.96) (xy 97.79 190.5)
 		)
 		(stroke
 			(width 0)
@@ -26004,7 +26246,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 260.35 120.65 0)
+		(at 260.35 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26012,7 +26254,7 @@
 		(dnp no)
 		(uuid "091f7e2e-1946-4e0b-ab88-37c0fa2ab850")
 		(property "Reference" "C52"
-			(at 264.668 118.364 0)
+			(at 264.668 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26021,7 +26263,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 265.938 123.19 0)
+			(at 265.938 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26030,7 +26272,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 261.3152 124.46 0)
+			(at 261.3152 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26039,7 +26281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 120.65 0)
+			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26048,7 +26290,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 260.35 120.65 0)
+			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27986,7 +28228,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 102.87 187.96 0)
+		(at 97.79 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27994,7 +28236,7 @@
 		(dnp no)
 		(uuid "2411b43d-7429-403c-b4b9-7c7b43d80323")
 		(property "Reference" "#PWR043"
-			(at 102.87 191.77 0)
+			(at 97.79 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28003,7 +28245,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 101.092 183.134 90)
+			(at 96.012 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28012,7 +28254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28021,7 +28263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28030,7 +28272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 102.87 187.96 0)
+			(at 97.79 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30946,133 +31188,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Personal_Projects:Clock_ECS-327MVATX-7-CN-TR")
-		(at 110.49 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4823457a-623e-4b64-967b-9468b3b06c95")
-		(property "Reference" "Y3"
-			(at 123.952 183.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Clock_ECS-327MVATX-7-CN-TR"
-			(at 124.206 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Personal_Project:Clock_ECS327MVATX7CNTR"
-			(at 144.78 285.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/ecs-327mvatx-7-cn-tr/ecs-international?region=nac"
-			(at 144.78 385.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard Clock Oscillators 32.768kHz 1.6-3.6V ESR -40C +85C"
-			(at 110.998 201.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.4"
-			(at 144.78 585.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "520-327MVATX-7-CNT"
-			(at 144.78 685.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-327MVATX-7-CN-TR?qs=T3oQrply3y%252BhdQ7YiXKl%2Fw%3D%3D"
-			(at 144.78 785.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ECS"
-			(at 144.78 885.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECS-327MVATX-7-CN-TR"
-			(at 144.78 985.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbd47d23-9862-4fdd-b51b-23e5f3a65d0e")
-		)
-		(pin "4"
-			(uuid "c390c948-65e4-4590-8cf1-88736f9aec92")
-		)
-		(pin "2"
-			(uuid "e15891d1-9ef7-4fcb-be7a-b5fe65b9f11e")
-		)
-		(pin "3"
-			(uuid "bb384d27-c518-4294-9265-a357c8ff82a6")
-		)
-		(instances
-			(project "STM32H7S7L8H6H_Board"
-				(path "/44f53707-0622-4396-97dd-5a4bf60d4c6a"
-					(reference "Y3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
-		(at 266.7 115.57 270)
+		(at 266.7 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31080,7 +31197,7 @@
 		(dnp no)
 		(uuid "4841173b-a72a-45f6-9545-6a69ffeb5ef5")
 		(property "Reference" "#PWR0127"
-			(at 262.89 115.57 0)
+			(at 262.89 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31089,7 +31206,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 265.176 114.3 90)
+			(at 265.176 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31097,7 +31214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 115.57 0)
+			(at 266.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31106,7 +31223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 115.57 0)
+			(at 266.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31115,7 +31232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 266.7 115.57 0)
+			(at 266.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34670,6 +34787,131 @@
 			(project "STM32H7S7L8H6H_Board"
 				(path "/44f53707-0622-4396-97dd-5a4bf60d4c6a"
 					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Personal_Projects:Oscillator_ECS-327MVATX-3-CN-TR")
+		(at 105.41 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "704c0ef4-80f3-4365-9615-fca7483a995a")
+		(property "Reference" "OS1"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_ECS-327MVATX-3-CN-TR"
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Personal_Project:Oscillator_ECS327MVATX3CNTR"
+			(at 139.7 285.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ECS-327MVATX-3-CN-TR.pdf"
+			(at 139.7 385.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystals 32.768kHz 1.6-3.6V ESR -40C +85C"
+			(at 105.41 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 139.7 585.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "520-327MVATX-3-CNT"
+			(at 139.7 685.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-327MVATX-3-CN-TR?qs=T3oQrply3y9VvCEDxGCK8A%3D%3D"
+			(at 139.7 785.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ECS"
+			(at 139.7 885.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECS-327MVATX-3-CN-TR"
+			(at 139.7 985.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1a760a0a-8842-4bda-9d5b-9734b3e8780f")
+		)
+		(pin "3"
+			(uuid "2c402a4e-1ec3-4a38-976d-3a59da83897e")
+		)
+		(pin "1"
+			(uuid "df986232-d00a-41cf-8d88-862c37562c05")
+		)
+		(pin "2"
+			(uuid "1dee4286-c361-4a5a-a5a6-f162bfc3e98e")
+		)
+		(instances
+			(project "STM32H7S7L8H6H_Board"
+				(path "/44f53707-0622-4396-97dd-5a4bf60d4c6a"
+					(reference "OS1")
 					(unit 1)
 				)
 			)
